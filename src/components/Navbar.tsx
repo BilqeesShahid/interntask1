@@ -30,12 +30,12 @@ const Navbar = () => {
         </div>
 
         {/* Middle Section - Desktop Navbar Items */}
-        <div className="hidden md:flex items-center space-x-4">
-          <ul className="flex space-x-4">
+        <div className="hidden md:flex items-center space-x-2">
+          <ul className="flex space-x-2">
             {navItems.map((item) => (
               <li
                 key={item.id}
-                className="px-4 py-2 hover:bg-gradient-to-r from-[#FF7F24] via-[#FF4500] to-[#CC3700] rounded-lg cursor-pointer duration-300 hover:text-white"
+                className="px-3 py-2 hover:bg-gradient-to-r from-[#FF7F24] via-[#FF4500] to-[#CC3700] rounded-lg cursor-pointer duration-300 hover:text-white"
               >
                 {item.text}
               </li>
