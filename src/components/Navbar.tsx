@@ -24,7 +24,7 @@ const Navbar = () => {
           <h1 className="text-2xl font-bold bg-gradient-to-r from-[#FF7F24] via-[#FF4500] to-[#CC3700] text-transparent bg-clip-text">
             BRITSOLS.
           </h1>
-          <p className="hidden md:block text-lg bg-gradient-to-r from-[#FF7F24] via-[#FF4500] to-[#CC3700] text-transparent bg-clip-text">
+          <p className="hidden md:block text-xl sm:text-sm bg-gradient-to-r from-[#FF7F24] via-[#FF4500] to-[#CC3700] text-transparent bg-clip-text">
             Way towards Goals and Success
           </p>
         </div>
